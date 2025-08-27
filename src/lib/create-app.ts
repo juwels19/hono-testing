@@ -10,7 +10,6 @@ export function createRouter() {
 }
 
 export default function createApp() {
-
   const app = createRouter();
   app.use(serveEmojiFavicon("📊"));
   app.use(requestId());
